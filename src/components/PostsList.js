@@ -13,7 +13,7 @@ class PostsList extends Component {
               <div className="post-avatar">
                 <Link to={`/user/${post.user._id}`}>
                   <img
-                    src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+                    src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png"
                     alt="user-pic"
                   />
                 </Link>
@@ -27,7 +27,7 @@ class PostsList extends Component {
               <div className="post-actions">
                 <div className="post-like">
                   <img
-                    src="https://image.flaticon.com/icons/svg/1077/1077035.svg"
+                    src="https://cdn-icons.flaticon.com/png/512/2956/premium/2956779.png?token=exp=1636793181~hmac=2b2c8108f93aa08aa7e5a0da7a509c0e"
                     alt="likes-icon"
                   />
                   <span>{post.likes.length}</span>
@@ -35,7 +35,7 @@ class PostsList extends Component {
 
                 <div className="post-comments-icon">
                   <img
-                    src="https://image.flaticon.com/icons/svg/1380/1380338.svg"
+                    src="https://cdn-icons.flaticon.com/png/512/1947/premium/1947247.png?token=exp=1636793223~hmac=bf99ac1afeb22da95dab170d944a9f02"
                     alt="comments-icon"
                   />
                   <span>{post.comments.length}</span>

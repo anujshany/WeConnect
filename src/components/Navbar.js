@@ -34,14 +34,14 @@ class Navbar extends React.Component {
             <ul>
               <li className="search-results-row">
                 <img
-                  src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+                  src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png"
                   alt="user-dp"
                 />
                 <span>John Doe</span>
               </li>
               <li className="search-results-row">
                 <img
-                  src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+                  src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png"
                   alt="user-dp"
                 />
                 <span>John Doe</span>
@@ -54,7 +54,7 @@ class Navbar extends React.Component {
             <div className="user">
               <Link to="/settings">
                 <img
-                  src="https://image.flaticon.com/icons/svg/2154/2154651.svg"
+                  src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png"
                   alt="user-dp"
                   id="user-dp"
                 />
